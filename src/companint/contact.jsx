@@ -170,13 +170,24 @@ const Contact = () => {
           <div className="form-group">
             <label htmlFor="message">MESSAGE</label>
 
-            <textarea
-              id="message"
-              name="message"
-              placeholder="Tell me about your project..."
-              rows="6"
-              required
-            />
+    
+<textarea
+  id="message"
+  name="message"
+  placeholder="Tell me about your project..."
+  rows="6"
+  required
+  onKeyDown={(e) => {
+    if (e.key === "Enter") {
+      e.preventDefault();
+      e.currentTarget.form.requestSubmit();
+      trim();
+    }
+  }}
+/>
+
+
+            
           </div>
 
           <button
