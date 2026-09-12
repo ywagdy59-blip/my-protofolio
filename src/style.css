@@ -735,7 +735,6 @@ body {
   overflow: hidden;
 }
 
-
 /* =========================================================
    HEADER
    ========================================================= */
@@ -771,7 +770,6 @@ body {
   letter-spacing: 5px;
 }
 
-
 /* =========================================================
    CONTAINER
    ========================================================= */
@@ -790,7 +788,6 @@ body {
   gap: 80px;
 }
 
-
 /* =========================================================
    IMAGE
    ========================================================= */
@@ -805,7 +802,6 @@ body {
 
   margin: 0 auto;
 }
-
 
 /* Image border */
 
@@ -822,7 +818,6 @@ body {
 
   z-index: 0;
 }
-
 
 /* Image */
 
@@ -845,13 +840,11 @@ body {
     transform 0.5s ease;
 }
 
-
 .about-image-wrapper:hover .about-image {
   filter: grayscale(0%);
 
   transform: translate(-8px, -8px);
 }
-
 
 /* Image number */
 
@@ -874,7 +867,6 @@ body {
   letter-spacing: 3px;
 }
 
-
 /* =========================================================
    ABOUT CONTENT
    ========================================================= */
@@ -882,7 +874,6 @@ body {
 .about-content {
   max-width: 650px;
 }
-
 
 .about-intro {
   margin: 0 0 15px;
@@ -893,7 +884,6 @@ body {
 
   letter-spacing: 2px;
 }
-
 
 /* Main heading */
 
@@ -911,7 +901,6 @@ body {
   text-transform: uppercase;
 }
 
-
 /* Second line */
 
 .about-content h2 span {
@@ -921,7 +910,6 @@ body {
 
   -webkit-text-stroke: 1px #fff;
 }
-
 
 /* =========================================================
    TEXT
@@ -938,7 +926,6 @@ body {
 
   line-height: 1.9;
 }
-
 
 /* =========================================================
    INFO
@@ -958,7 +945,6 @@ body {
   border-top: 1px solid #222;
 }
 
-
 .about-info-item {
   display: flex;
 
@@ -966,7 +952,6 @@ body {
 
   gap: 10px;
 }
-
 
 .about-info-item span {
   color: #555;
@@ -976,7 +961,6 @@ body {
   letter-spacing: 3px;
 }
 
-
 .about-info-item strong {
   color: #ddd;
 
@@ -985,13 +969,11 @@ body {
   font-weight: 500;
 }
 
-
 /* =========================================================
    TABLET
    ========================================================= */
 
 @media (max-width: 1000px) {
-
   .about {
     padding: 100px 6%;
   }
@@ -1011,13 +993,11 @@ body {
   }
 }
 
-
 /* =========================================================
    MOBILE
    ========================================================= */
 
 @media (max-width: 800px) {
-
   .about {
     padding: 90px 6%;
   }
@@ -1058,13 +1038,11 @@ body {
   }
 }
 
-
 /* =========================================================
    SMALL MOBILE
    ========================================================= */
 
 @media (max-width: 500px) {
-
   .about {
     padding: 70px 5%;
   }
@@ -1146,7 +1124,6 @@ body {
   color: #888;
 }
 
-
 /* =========================
    INTRO
 ========================= */
@@ -1186,7 +1163,6 @@ body {
   color: #888;
 }
 
-
 /* =========================
    SKILLS GRID
 ========================= */
@@ -1211,7 +1187,6 @@ body {
   color: #fff;
 }
 
-
 /* Section index (matches the "01/02/03..." numbering used across sections) */
 
 .skills-header {
@@ -1235,7 +1210,6 @@ body {
   letter-spacing: 3px;
   color: #666;
 }
-
 
 /* Intro block */
 
@@ -1276,7 +1250,6 @@ body {
   line-height: 1.8;
 }
 
-
 /* Card grid — border-top/left close the frame that each card's own
    border-right/border-bottom leaves open on the outer edge. */
 
@@ -1287,7 +1260,6 @@ body {
   border-top: 1px solid #222;
   border-left: 1px solid #222;
 }
-
 
 /* =========================================================
    SKILL CARD
@@ -1309,7 +1281,6 @@ body {
 .skill-card:hover {
   background: #0d0d0d;
 }
-
 
 /* =========================================================
    CARD TOP
@@ -1340,7 +1311,6 @@ body {
   transform: translate(4px, -4px);
 }
 
-
 /* =========================================================
    CARD TITLE
    ========================================================= */
@@ -1351,7 +1321,6 @@ body {
   font-size: 28px;
   font-weight: 500;
 }
-
 
 /* =========================================================
    TECHNOLOGIES
@@ -1380,7 +1349,6 @@ body {
   color: #ffffff;
   border-color: #444;
 }
-
 
 /* =========================================================
    CURRENTLY LEARNING
@@ -1442,7 +1410,6 @@ body {
   line-height: 1.8;
 }
 
-
 /* =========================================================
    RESPONSIVE
    ========================================================= */
@@ -1461,7 +1428,6 @@ body {
     gap: 30px;
   }
 }
-
 
 @media (max-width: 500px) {
   .skills {
@@ -1519,7 +1485,6 @@ body {
   color: #777;
 }
 
-
 /* =========================
    CONTENT
 ========================= */
@@ -1559,7 +1524,6 @@ body {
   color: #888;
 }
 
-
 /* =========================
    PROJECT GRID
    auto-fill + minmax means this scales on its own as you add more
@@ -1574,7 +1538,6 @@ body {
   margin-top: 80px;
 }
 
-
 /* =========================
    PROJECT CARD
 ========================= */
@@ -1586,12 +1549,11 @@ body {
 
   border: 1px solid #252525;
 
-  background:
-    linear-gradient(
-      135deg,
-      rgba(110, 140, 255, 0.05),
-      transparent 40%
-    );
+  background: linear-gradient(
+    135deg,
+    rgba(110, 140, 255, 0.05),
+    transparent 40%
+  );
 
   display: flex;
   flex-direction: column;
@@ -1605,7 +1567,6 @@ body {
 .project-card:hover {
   border-color: #333;
 }
-
 
 /* CARD TOP */
 
@@ -1630,7 +1591,6 @@ body {
 .status-live {
   color: #4ade80;
 }
-
 
 /* CARD CENTER */
 
@@ -1707,7 +1667,6 @@ body {
   color: #aaa;
 }
 
-
 /* CARD BOTTOM — links */
 
 .project-card-bottom {
@@ -1737,7 +1696,6 @@ body {
   color: #444;
   cursor: default;
 }
-
 
 /* =========================
    RESPONSIVE
@@ -1798,7 +1756,6 @@ body {
   letter-spacing: 4px;
 }
 
-
 /* =========================
    INTRO
 ========================= */
@@ -1844,7 +1801,6 @@ body {
   line-height: 1.8;
 }
 
-
 /* =========================
    GRID
 ========================= */
@@ -1860,7 +1816,6 @@ body {
 
   border-top: 1px solid #222;
 }
-
 
 /* =========================
    INFO
@@ -1906,7 +1861,6 @@ body {
 .info-item a:hover {
   color: #6e8cff;
 }
-
 
 /* =========================
    FORM
@@ -1968,7 +1922,6 @@ body {
   border-color: #6e8cff;
 }
 
-
 /* =========================
    BUTTON
 ========================= */
@@ -2015,7 +1968,6 @@ body {
   transform: none;
 }
 
-
 /* =========================
    ERROR
 ========================= */
@@ -2027,7 +1979,6 @@ body {
 
   font-size: 13px;
 }
-
 
 /* =========================
    SUCCESS
@@ -2081,7 +2032,6 @@ body {
   color: #6e8cff;
 }
 
-
 /* =========================
    FOOTER
 ========================= */
@@ -2101,7 +2051,6 @@ body {
   font-size: 10px;
   letter-spacing: 2px;
 }
-
 
 /* =========================
    RESPONSIVE
@@ -2128,7 +2077,6 @@ body {
     gap: 15px;
   }
 }
-
 
 @media (max-width: 500px) {
   .contact {
@@ -2170,3 +2118,119 @@ body {
 
    .contact-intro h1  →  .contact-intro h2
 */
+
+/* Responsive navbar */
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+.nav-toggle {
+  display: none;
+  align-items: center;
+  justify-content: center;
+
+  width: 42px;
+  height: 42px;
+  padding: 0;
+
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 6px;
+  background: transparent;
+  color: #edeef2;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.nav-toggle:focus-visible {
+  outline: 2px solid #6e8cff;
+  outline-offset: 3px;
+}
+
+@media (max-width: 900px) {
+  .site .wrap {
+    position: relative;
+    height: 70px;
+    padding: 0 20px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  .brand {
+    width: auto;
+    text-align: left;
+  }
+
+  .nav-toggle {
+    display: flex;
+  }
+
+  .nav-menu {
+    position: absolute;
+    top: calc(100% + 1px);
+    left: 0;
+    right: 0;
+
+    display: none;
+    padding: 22px 20px 24px;
+
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    background: rgba(10, 12, 17, 0.98);
+    box-shadow: 0 18px 30px rgba(0, 0, 0, 0.25);
+  }
+
+  .nav-menu.is-open {
+    display: block;
+  }
+
+  .navlinks {
+    display: grid;
+    gap: 0;
+  }
+
+  .navlinks li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  .navlinks a {
+    display: block;
+    padding: 14px 0;
+    font-size: 15px;
+  }
+
+  .navlinks a::after {
+    display: none;
+  }
+
+  .nav-actions {
+    justify-content: space-between;
+    padding-top: 20px;
+  }
+
+  .nav-cta {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 380px) {
+  .site .wrap {
+    padding: 0 14px;
+  }
+
+  .brand {
+    font-size: 17px;
+  }
+
+  .nav-menu {
+    padding-right: 14px;
+    padding-left: 14px;
+  }
+}
