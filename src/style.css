@@ -833,7 +833,7 @@ text-decoration: none;
 
   display: block;
 
-  filter: grayscale(100%);
+  /* filter: grayscale(100%); */
 
   transition:
     filter 0.5s ease,
@@ -841,7 +841,7 @@ text-decoration: none;
 }
 
 .about-image-wrapper:hover .about-image {
-  filter: grayscale(0%);
+ filter: grayscale(0%); 
 
   transform: translate(-8px, -8px);
 }
