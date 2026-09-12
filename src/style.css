@@ -138,7 +138,7 @@ body {
 .nav-cta {
   position: relative;
   overflow: hidden;
-
+text-decoration: none;
   padding: 9px 18px;
 
   border: 1px solid #6e8cff;
