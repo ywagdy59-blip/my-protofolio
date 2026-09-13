@@ -30,13 +30,11 @@ const Contact = () => {
 
   return (
     <section className="contact" id="contact">
-      {/* HEADER */}
       <div className="contact-header">
         <span aria-hidden="true">05</span>
         <p>GET IN TOUCH</p>
       </div>
 
-      {/* INTRO */}
       <div className="contact-intro">
         <p className="contact-label">CONTACT ME</p>
 
@@ -51,9 +49,7 @@ const Contact = () => {
         </p>
       </div>
 
-      {/* CONTACT GRID */}
       <div className="contact-grid">
-        {/* INFORMATION */}
         <div className="contact-info">
           <p className="info-title">CONTACT INFORMATION</p>
 
@@ -61,7 +57,9 @@ const Contact = () => {
             <FaEnvelope className="info-icon" aria-hidden="true" />
             <div>
               <span>EMAIL</span>
-              <a href="mailto:ywagdy59@gmail.com">ywagdy59@gmail.com</a>
+              <a href="mailto:ywagdy59@gmail.com">
+                ywagdy59@gmail.com
+              </a>
             </div>
           </div>
 
@@ -97,7 +95,6 @@ const Contact = () => {
             <FaWhatsapp className="info-icon" aria-hidden="true" />
             <div>
               <span>WHATSAPP</span>
-              {/* placeholder number — replace 20XXXXXXXXXX with your real number, country code first, no + or spaces */}
               <a
                 href="https://wa.me/2001557122676"
                 target="_blank"
@@ -112,13 +109,12 @@ const Contact = () => {
             <FaInstagram className="info-icon" aria-hidden="true" />
             <div>
               <span>INSTAGRAM</span>
-              {/* placeholder handle — replace with your real Instagram username */}
               <a
                 href="https://www.instagram.com/youssef_wagdy__/"
                 target="_blank"
                 rel="noreferrer"
               >
-                @youssefwagdy
+                @yousefwagdy
               </a>
             </div>
           </div>
@@ -127,19 +123,17 @@ const Contact = () => {
             <FaFacebook className="info-icon" aria-hidden="true" />
             <div>
               <span>FACEBOOK</span>
-              {/* placeholder handle — replace with your real Facebook page/profile */}
               <a
                 href="https://web.facebook.com/yousef.wagdy.50?locale=ar_AR"
                 target="_blank"
                 rel="noreferrer"
               >
-                facebook.com/youssefwagdy
+                facebook.com/youssefwaggy
               </a>
             </div>
           </div>
         </div>
 
-        {/* FORM */}
         <form className="contact-form" onSubmit={handleSubmit}>
           <p className="info-title">SEND A MESSAGE</p>
 
@@ -170,24 +164,13 @@ const Contact = () => {
           <div className="form-group">
             <label htmlFor="message">MESSAGE</label>
 
-    
-<textarea
-  id="message"
-  name="message"
-  placeholder="Tell me about your project..."
-  rows="6"
-  required
-  onKeyDown={(e) => {
-    if (e.key === "Enter") {
-      e.preventDefault();
-      e.currentTarget.form.requestSubmit();
-      trim();
-    }
-  }}
-/>
-
-
-            
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Tell me about your project..."
+              rows="10"
+              required
+            />
           </div>
 
           <button
@@ -206,10 +189,8 @@ const Contact = () => {
         </form>
       </div>
 
-      {/* FOOTER */}
       <div className="contact-footer">
         <span>© 2026 YOUSSEF WAGDY</span>
-
         <span>FRONT-END DEVELOPER</span>
       </div>
     </section>
