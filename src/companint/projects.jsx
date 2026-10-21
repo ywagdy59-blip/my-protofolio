@@ -19,8 +19,9 @@ const Projects = () => {
         </h2>
 
         <p className="projects-description">
-          I'm currently building and refining real-world frontend projects. New
-          work will be added here soon.
+          I'm building full-stack applications with React, Node.js, Express.js
+          and MongoDB. Project details and demos will appear here as they are
+          ready.
         </p>
 
         {/* PROJECT GRID */}
@@ -39,6 +40,17 @@ const Projects = () => {
                   {project.status}
                 </span>
               </div>
+
+              {project.image && (
+                <div className="project-preview">
+                  <img
+                    src={project.image}
+                    alt={`${project.title} preview`}
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+              )}
 
               <div className="project-card-center">
                 <div className="project-icon" aria-hidden="true">

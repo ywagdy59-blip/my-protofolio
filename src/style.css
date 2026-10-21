@@ -1592,6 +1592,28 @@ text-decoration: none;
   color: #4ade80;
 }
 
+/* PROJECT PREVIEW */
+
+.project-preview {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background: #151515;
+}
+
+.project-preview img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  transition: transform 0.4s ease;
+}
+
+.project-card:hover .project-preview img {
+  transform: scale(1.03);
+}
+
 /* CARD CENTER */
 
 .project-card-center {

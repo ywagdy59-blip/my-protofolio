@@ -1,46 +1,47 @@
+import eShopImage from "../project/e-shop.png";
+
 export const skills = [
   {
     number: "01",
-    title: "Core Front-End",
+    title: "MERN Stack",
     technologies: [
-      "HTML5",
-      "CSS3",
+      "MongoDB",
+      "Express.js",
+      "React",
+      "Node.js",
       "JavaScript",
-      "Responsive Design",
-      "DOM",
       "REST APIs",
-      "JSON",
     ],
   },
 
   {
     number: "02",
-    title: "React Ecosystem",
+    title: "Frontend Development",
     technologies: [
-      "React",
+      "HTML5",
+      "CSS3",
+      "Responsive Design",
       "React Router",
       "React Hooks",
-      "React Query",
-      "Styled Components",
-      "React Icons",
     ],
   },
 
   {
     number: "03",
-    title: "UI & Styling",
+    title: "Backend & Data",
     technologies: [
-      "Bootstrap",
-      "Tailwind CSS",
-      "CSS Animations",
-      "Framer Motion",
-      "UI / UX",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Supabase",
+      "Database CRUD",
+      "API Integration",
     ],
   },
 
   {
     number: "04",
-    title: "3D & Modern Web",
+    title: "Modern Web & 3D",
     technologies: [
       "Three.js",
       "React Three Fiber",
@@ -52,38 +53,21 @@ export const skills = [
 
   {
     number: "05",
-    title: "Tools & Development",
+    title: "Tools & Workflow",
     technologies: ["Next.js", "Vite", "Git", "GitHub", "npm", "ESLint"],
   },
-
-  {
-    number: "06",
-    title: "Data & Backend",
-    technologies: [
-      "Supabase",
-      "Authentication",
-      "Database",
-      "CRUD",
-      "API Integration",
-    ],
-  },
 ];
-
-// Replace the fields below with your real project once it's ready.
-// To add another project later, copy this whole object, paste it as a
-// new entry in the array, and fill in its own fields — no need to touch
-// Projects.jsx at all.
 
 export const projects = [
   {
-    id: "template-project",
-    title: "Untitled Project",
+    id: "e-shop",
+    title: "E-Shop",
     description:
-      "Replace this with a one or two sentence description of what the project does and the problem it solves.",
-    tags: ["React", "Tailwind CSS"],
-    status: "IN DEVELOPMENT", // change to "LIVE" once it's deployed
-    liveUrl: "", // e.g. "https://myproject.com" — leave empty until deployed
-    githubUrl: "", // e.g. "https://github.com/youssefwagdy/myproject"
+      "A full-stack e-commerce application built with React, Node.js, Express.js, and MongoDB, featuring user authentication and product management.",
+    image: eShopImage,
+    tags: ["React", "Node.js", "Express.js", "MongoDB", "REST API"],
+    status: "IN DEVELOPMENT",
+    liveUrl: "",
+    githubUrl: "https://github.com/ywagdy59-blip/e-shop",
   },
 ];
-
