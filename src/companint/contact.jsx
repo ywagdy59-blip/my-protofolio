@@ -191,7 +191,7 @@ const Contact = () => {
 
       <div className="contact-footer">
         <span>© 2026 YOUSSEF WAGDY</span>
-        <span>FRONT-END DEVELOPER</span>
+        <span>FULL-STACK MERN DEVELOPER</span>
       </div>
     </section>
   );

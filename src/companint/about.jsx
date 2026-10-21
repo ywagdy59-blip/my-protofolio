@@ -40,20 +40,20 @@ const About = () => {
           <p className="about-intro">I'M YOUSSEF WAGDY</p>
 
           <h2>
-            Front-End
-            <span>Developer</span>
+            Full-Stack
+            <span>MERN Developer</span>
           </h2>
 
           <p className="about-text">
-            I'm a passionate Front-End Developer focused on creating modern,
-            responsive and interactive web experiences. I enjoy turning ideas
-            and designs into clean and functional websites.
+            I'm a Full-Stack MERN Developer focused on building responsive web
+            applications from the user interface to the server and database.
+            I enjoy turning ideas into useful, reliable products.
           </p>
 
           <p className="about-text">
-            I work with HTML, CSS, JavaScript and React, and I'm constantly
-            improving my skills by building real-world projects and learning
-            modern frontend technologies.
+            My stack includes MongoDB, Express.js, React and Node.js. I also
+            work with JavaScript, REST APIs, and responsive web design while
+            continuing to grow through hands-on projects.
           </p>
 
           {/* Info */}
@@ -61,17 +61,17 @@ const About = () => {
           <div className="about-info">
             <div className="about-info-item">
               <span>ROLE</span>
-              <strong>Front-End Developer</strong>
+              <strong>Full-Stack MERN Developer</strong>
             </div>
 
             <div className="about-info-item">
               <span>STACK</span>
-              <strong>React / JavaScript</strong>
+              <strong>MongoDB / Express / React / Node.js</strong>
             </div>
 
             <div className="about-info-item">
               <span>FOCUS</span>
-              <strong>Web Development</strong>
+              <strong>End-to-End Web Applications</strong>
             </div>
           </div>
         </div>

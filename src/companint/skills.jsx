@@ -19,8 +19,8 @@ const Skills = () => {
         </h2>
 
         <p className="skills-description">
-          A collection of technologies and tools I use to build modern,
-          responsive and interactive web experiences.
+          Tools I use to build complete web applications across the frontend,
+          backend and database.
         </p>
       </div>
 
@@ -62,8 +62,8 @@ const Skills = () => {
           </h3>
 
           <p>
-            Currently improving my knowledge of Next.js, Three.js, React Three
-            Fiber and modern frontend development.
+            Currently deepening my skills in Node.js, Express.js, MongoDB,
+            REST APIs and full-stack application development.
           </p>
         </div>
       </div>

@@ -10,7 +10,7 @@ const Hero = () => {
     <section className="hero">
       {/* LEFT */}
       <div className="hero-content">
-        <p className="hero-label">FRONT-END DEVELOPER</p>
+        <p className="hero-label">FULL-STACK MERN DEVELOPER</p>
 
         <h1 aria-label="Youssef Wagdy">
           YOUSSEF
@@ -18,8 +18,8 @@ const Hero = () => {
         </h1>
 
         <p className="hero-description">
-          I build modern, interactive and responsive web experiences
-          using React, JavaScript and modern frontend technologies.
+          I build responsive full-stack web applications with MongoDB,
+          Express.js, React and Node.js.
         </p>
 
         <div className="hero-buttons">

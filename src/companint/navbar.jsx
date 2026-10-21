@@ -7,7 +7,7 @@ import {
   FaTimes,
   FaWhatsapp,
 } from "react-icons/fa";
-import cvFile from "../cv/Youssef_Wagdy_Professional_CV (1).docx (2).pdf";
+import cvFile from "../cv/Youssef_Wagdy_Full_Stack_MERN_CV.pdf";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -94,10 +94,17 @@ const Navbar = () => {
             <a
               href={cvFile}
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               className="nav-cta"
             >
               Open CV
+            </a>
+            <a
+              href={cvFile}
+              download="Youssef_Wagdy_Full_Stack_MERN_CV.pdf"
+              className="nav-cta"
+            >
+              Download CV
             </a>
           </div>
         </div>
