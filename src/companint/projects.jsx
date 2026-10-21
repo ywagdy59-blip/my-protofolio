@@ -53,10 +53,6 @@ const Projects = () => {
               )}
 
               <div className="project-card-center">
-                <div className="project-icon" aria-hidden="true">
-                  +
-                </div>
-
                 <h3>{project.title}</h3>
                 <p>{project.description}</p>
 
